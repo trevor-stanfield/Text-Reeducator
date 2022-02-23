@@ -137,7 +137,7 @@ censorship if necessary.
 */
 func CensorySlope() {
 	fileName := ""
-	fmt.Println("Please enter a text file of filthy, foul utterances:")
+	fmt.Println("Please enter a text file full of filthy, foul utterances:")
 	fmt.Scanln(&fileName)
 
 	file, err := os.Open(fileName)
